@@ -78,15 +78,15 @@ Please note that the voting process will be conducted on-chain using the Snapsho
 
 ## Challenges Faced
 
-Creating a decentralized and autonomous project from scratch poses various challenges. Some of the key challenges encountered during the development of the Dynamic Collage NFT project include:
+For now, Collage DAO will wait to launch until Superfluid is either forked or deployed to the Fantom network, though below will be our challenges creating a decentralized and autonomous project from scratch. Some of the key challenges we are encountering during the development of the Dynamic Collage NFT project include:
 
-1. **Implementing DAO Governance**: Establishing a robust governance structure within the project required careful consideration and integration of suitable DAO platforms. Finding the right balance between decentralization, security, and usability was a significant challenge.
+1. **Implementing DAO Governance**: Establishing a robust governance structure within the project will require careful consideration and integration of suitable DAO platforms. Finding the right balance between decentralization, security, and usability will be a challenge.
 
-2. **Enabling Voting and Decision-making**: Designing and implementing a fair and transparent voting system for NFT metadata updates involved creating smart contracts or integrating off-chain solutions. Ensuring the security and integrity of the voting process while providing an accessible user interface was a complex task.
+2. **Enabling Voting and Decision-making**: Designing and implementing a fair and transparent voting system for NFT metadata updates will involve creating smart contracts or integrating off-chain solutions. Ensuring the security and integrity of the voting process while providing an accessible user interface will be a complex task.
 
-3. **Integrating Superfluid on Fantom DAG**: Integrating the Superfluid protocol on the Fantom DAG (Directed Acyclic Graph) presented technical challenges. Adapting and modifying the protocol to be compatible with Fantom's specific architecture and consensus mechanism required careful consideration and extensive testing.
+3. **Integrating Superfluid on Fantom DAG**: Integrating the Superfluid protocol on the Fantom DAG (Directed Acyclic Graph) will present technical challenges, though we are looking forward to this being done.
 
-4. **Maintaining Collage Website**: Developing a website that displays the evolving NFTs as a collage required designing an intuitive user interface and implementing dynamic image generation. Ensuring the smooth integration of the NFT metadata updates with the website's functionality posed additional challenges.
+4. **Maintaining Collage Website**: Developing a website that displays the evolving NFTs as a collage requires designing an intuitive user interface and implementing dynamic image generation. Ensuring the smooth integration of the NFT metadata updates with the website's functionality posed additional challenges.
 
 5. **Connecting API's for Real-time Token Tracking**: To enable real-time tracking of Collage token holders and their streaming activities, we will need to connect various APIs. This will involve integrating Covalent and other relevant tools to gather and display accurate information about token holders and their streaming activities.
 
