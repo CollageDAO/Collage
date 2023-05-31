@@ -23,6 +23,23 @@ The project leverages Superfluid, a smart contract framework that introduces the
 
 For more information on Superfluid, refer to the [Superfluid Protocol Overview](https://docs.superfluid.finance/superfluid/protocol-overview/in-depth-overview).
 
+The Collage DAO project is divided into several modules, each serving a specific purpose:
+
+- **Module A: Collage Submissions**: Responsible for accepting new NFT design submissions from the Collaging DAO community. Members can submit their unique NFT designs, which will be considered for implementation in future voting cycles. To submit a design, join the Collaging DAO's Discord community and share your design in the designated channel.
+
+- **Module B: Voting on New Designs**: Focuses on the voting process for new NFT designs. The Collaging DAO conducts regular voting cycles to determine which designs will be implemented. Community members who hold Collage tokens and Collage NFTs can cast their votes on the Snapshot platform. The voting process is transparent and conducted on-chain.
+
+- **Module C: Collage Website**: Involves the development and maintenance of the Collage website. The website showcases the evolving Collage NFTs in a visually stunning collage-like image. It provides an intuitive user interface for community members to explore and engage with the project.
+
+- **Module D: NFT Revenue**: Handles the auctioning of NFTs and the distribution of revenue generated from the sales. The primary goal is to ensure that the majority of the revenue goes back to the artists who created the NFTs:
+
+- When NFTs are displayed on the Collage website, an auction feature is implemented to sell the NFTs to interested buyers.
+- The revenue generated from the NFT sales is distributed as follows: 99.9% of the revenue goes back to the artist who created the NFT, while the Collage DAO retains 0.1% as a platform fee.
+- The auction process is transparent and conducted on-chain, utilizing smart contracts to facilitate secure and verifiable transactions.
+- The revenue distribution to the artists is automated, ensuring a seamless and efficient process.
+- To participate in the auction and purchase NFTs, interested buyers can visit the Collage website and follow the instructions provided.
+- The Collage website will prominently display information about the revenue distribution model, emphasizing the project's commitment to supporting and empowering artists.
+
 ## Tools Used
 
 The Dynamic Collage NFT project utilizes the following tools and technologies:
