@@ -5,7 +5,7 @@ The Dynamic Collage NFT project combines the functionality of an ERC20 token nam
 
 Every purchaser of Collage tokens becomes a member of the Collage DAO, a decentralized autonomous organization. As a member, you have the opportunity to actively participate in the project by submitting new NFT designs and voting on which designs should be implemented. Ownership of Collage tokens and Collage NFTs token-gates access to the Collage DAO's Discord community, creating a vibrant ecosystem of engaged participants.
 
-The project also includes a website that showcases the evolving Collage NFTs in a collage-like image, creating a visually stunning display of the community's collective creativity.
+The project also includes a website that showcases the evolving Collage NFTs in a collage-like image, creating a visually stunning display of the community's collective creativity. You can view our website [here](https://ipfs.io/ipfs/QmW4r6kJDh626jr8pBdcwtSVk6bSEpM8eiCKSUCJUjdQqd/).
 
 ## Features
 - Purchase Collage tokens and receive a dynamic Collage NFT that changes color and grows in size.
