@@ -1,7 +1,6 @@
 # Dynamic Collage NFT
 
 ## Overview
-
 The Dynamic Collage NFT project combines the functionality of an ERC20 token named Collage and a Collage NFT. When purchasing Collage tokens, a dynamic Collage NFT is automatically minted and associated with the buyer's wallet. The Collage tokens are then streamed to the wallet at a rate of 1 token per second until the full purchased amount is received. The Collage NFT's appearance changes over time, with its color changing every second during the streaming process, and its size growing based on the number of Collage tokens held.
 
 Every purchaser of Collage tokens becomes a member of the Collaging DAO, a decentralized autonomous organization. As a member, you have the opportunity to actively participate in the project by submitting new NFT designs and voting on which designs should be implemented. Ownership of Collage tokens and Collage NFTs token-gates access to the Collaging DAO's Discord community, creating a vibrant ecosystem of engaged participants.
@@ -9,7 +8,6 @@ Every purchaser of Collage tokens becomes a member of the Collaging DAO, a decen
 The project also includes a website that showcases the evolving Collage NFTs in a collage-like image, creating a visually stunning display of the community's collective creativity.
 
 ## Features
-
 - Purchase Collage tokens and receive a dynamic Collage NFT that changes color and grows in size.
 - Stream Collage tokens to your wallet at a rate of 1 token per second.
 - Update your stream by purchasing more Collage tokens, selling them, or transferring them to others.
@@ -18,40 +16,43 @@ The project also includes a website that showcases the evolving Collage NFTs in 
 - Collage website displays all the NFTs side by side, forming an evolving image.
 
 ## Superfluid Integration
-
 The project leverages Superfluid, a smart contract framework that introduces the concept of Super Tokens. Super Tokens extend the functionality of basic ERC20 tokens and allow for more advanced features, such as constant flow agreements (CFAs) for streaming tokens. By integrating Superfluid, the Dynamic Collage NFT project enables the streaming functionality of Collage tokens.
 
-For more information on Superfluid, refer to the [Superfluid Protocol Overview](https://docs.superfluid.finance/superfluid/protocol-overview/in-depth-overview).
+For more information on Superfluid, refer to the [Superfluid Protocol Overview](https://superfluid.finance/).
 
-The Collage DAO project is divided into several modules, each serving a specific purpose:
+## Modules
 
-- **Module A: Collage Submissions**: Responsible for accepting new NFT design submissions from the Collaging DAO community. Members can submit their unique NFT designs, which will be considered for implementation in future voting cycles. To submit a design, join the Collaging DAO's Discord community and share your design in the designated channel.
+### Module A: Collage Submissions
+Responsible for accepting new NFT design submissions from the Collaging DAO community. Members can submit their unique NFT designs, which will be considered for implementation in future voting cycles. To submit a design, join the Collaging DAO's Discord community and share your design in the designated channel.
 
-- **Module B: Voting on New Designs**: Focuses on the voting process for new NFT designs. The Collaging DAO conducts regular voting cycles to determine which designs will be implemented. Community members who hold Collage tokens and Collage NFTs can cast their votes on the Snapshot platform. The voting process is transparent and conducted on-chain.
+### Module B: Voting on New Designs
+Focuses on the voting process for new NFT designs. The Collaging DAO conducts regular voting cycles to determine which designs will be implemented. Community members who hold Collage tokens and Collage NFTs can cast their votes on the Snapshot platform. The voting process is transparent and conducted on-chain.
 
-- **Module C: Collage Website**: Involves the development and maintenance of the Collage website. The website showcases the evolving Collage NFTs in a visually stunning collage-like image. It provides an intuitive user interface for community members to explore and engage with the project.
+### Module C: Collage Website
+Involves the development and maintenance of the Collage website. The website showcases the evolving Collage NFTs in a visually stunning collage-like image.
 
-- **Module D: NFT Revenue**: Handles the auctioning of NFTs and the distribution of revenue generated from the sales. The primary goal is to ensure that the majority of the revenue goes back to the artists who created the NFTs:
+### Module D: NFT Revenue
+Handles the auctioning of NFTs and the distribution of revenue generated from the sales. The primary goal is to ensure that the majority of the revenue goes back to the artists who created the NFTs:
 
 - When NFTs are displayed on the Collage website, an auction feature is implemented to sell the NFTs to interested buyers.
-- The revenue generated from the NFT sales is distributed as follows: 99.9% of the revenue goes back to the artist who created the NFT, while the Collage DAO retains 0.1% as a platform fee.
+- The revenue generated from the NFT sales is distributed as follows: 95% of the revenue goes back to the artist who created the NFT, while the Collage DAO retains 5% as a platform fee.
 - The auction process is transparent and conducted on-chain, utilizing smart contracts to facilitate secure and verifiable transactions.
 - The revenue distribution to the artists is automated, ensuring a seamless and efficient process.
 - To participate in the auction and purchase NFTs, interested buyers can visit the Collage website and follow the instructions provided.
 - The Collage website will prominently display information about the revenue distribution model, emphasizing the project's commitment to supporting and empowering artists.
 
 ## Tools Used
-
 The Dynamic Collage NFT project utilizes the following tools and technologies:
 
-- **Superfluid**: Smart contract framework for streaming Collage tokens.
-- **Snapshot**: On-chain voting platform for the Collaging DAO to vote on new NFT designs.
-- **Discord**: Community platform with token-gated access based on ownership of Collage tokens and Collage NFTs.
-- **Future Database (suggested)**: A database to store and retrieve information related to NFT designs, voting history, and other relevant project data.
+- Superfluid: Smart contract framework for streaming Collage tokens.
+- Snapshot: On-chain voting platform for the Collaging DAO to vote on new NFT designs.
+- Discord: Community platform with token-gated access based on ownership of Collage tokens and Collage NFTs.
+- Covalent: Suite of API tools for live streaming the NFTs of all current Collage token holders on the Collage website.
+- Future Database: A database to store and retrieve information related to NFT designs, voting history, and other relevant project data.
 
 ## Submit New NFT + Collage Design
 
-As a member of the Collaging DAO, you have the opportunity to contribute to the project's creative vision by submitting new NFT designs. To submit a new design, follow these steps:
+As a member of the Collage DAO, you have the opportunity to contribute to the project's creative vision by submitting new NFT designs. To submit a new design, follow these steps:
 
 1. Create your unique NFT design using your preferred graphics software.
 2. Save the design in a suitable image format (e.g., PNG, JPEG).
@@ -62,7 +63,7 @@ Once submitted, your NFT design will be considered for implementation in future 
 
 ## Voting on New Designs
 
-The Collaging DAO conducts regular voting cycles to determine which new NFT designs will be implemented. The voting process occurs every 30 days and involves the following steps:
+Collage DAO will conduct regular voting cycles to determine which new NFT designs will be implemented. The voting process will occur monthly and involves the following steps:
 
 1. A designated voting period is announced in the Collaging DAO's Discord community.
 2. The community members review and discuss the submitted NFT designs.
@@ -73,7 +74,7 @@ The Collaging DAO conducts regular voting cycles to determine which new NFT desi
 
 By participating in the voting process, you have a direct say in shaping the Collage NFT collection and contributing to the project's evolution.
 
-Please note that the voting process is conducted on-chain using the Snapshot platform, ensuring transparency and immutability of the voting results.
+Please note that the voting process will be conducted on-chain using the Snapshot platform, ensuring transparency and immutability of the voting results.
 
 ## Challenges Faced
 
@@ -87,4 +88,6 @@ Creating a decentralized and autonomous project from scratch poses various chall
 
 4. **Maintaining Collage Website**: Developing a website that displays the evolving NFTs as a collage required designing an intuitive user interface and implementing dynamic image generation. Ensuring the smooth integration of the NFT metadata updates with the website's functionality posed additional challenges.
 
-Overcoming these challenges required thorough research, collaboration with the developer community, and meticulous testing to ensure a decentralized and autonomous project with a seamless user experience.
+5. **Connecting API's for Real-time Token Tracking**: To enable real-time tracking of Collage token holders and their streaming activities, we will need to connect various APIs. This will involve integrating Covalent and other relevant tools to gather and display accurate information about token holders and their streaming activities.
+
+Overcoming these challenges will require thorough testing to ensure a decentralized and autonomous project with a seamless user experience.
